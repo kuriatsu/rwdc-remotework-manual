@@ -1,2 +1,5 @@
-# rwdc-remotework-manual
-RWDC practicum, remote workspace manual 
+# プラクティカム リモート作業環境マニュアル
+
+1. [セットアップ]()
+2. [Tips]()
+3. [トラブルシューティング]()
