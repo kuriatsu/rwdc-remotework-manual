@@ -56,7 +56,7 @@ VPNネットワークのパスワードを入力してください。
 
 ![vnc_password](images/vnc_login.png)
 
-4. 画面が出てくれば接続成功です。少しデスクトップの表示に時間がかかるかもしれません。30秒程何も表示されなかったら、問い合わせてください。作業環境詳細については[hands_on]()を参照。
+4. 画面が出てくれば接続成功です。少しデスクトップの表示に時間がかかるかもしれません。30秒程何も表示されなかったら、問い合わせてください。作業環境詳細については[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)を参照。
 
 ![vnc_window](images/connected.png)
 
@@ -66,7 +66,7 @@ VPNネットワークのパスワードを入力してください。
 パスは`/home/自分の名前/Desktop/workspace/data`
 です。
 
-作業に関する詳細は[hands_on]()をご参照。
+作業に関する詳細は[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)をご参照。
 
 ## 作業終了
 1. VNCの切断ボタン (`Close Connection`)
