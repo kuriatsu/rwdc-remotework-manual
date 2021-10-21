@@ -23,13 +23,17 @@
  Windowsの場合、`ドキュメント`などへ保存するとOneDriveへ共有されてしまう可能性があるため、`¥C:/Download/vpn`など、¥C：下のローカルストレージへ保存するように注意してください。
 
 1. OpenVPNに公開鍵をインポートします
-[!import]()
-[!select]()
+
+![import](images/import_file.png)
+![select](images/ovpn_file_select.png)
 
 2. VPNへ接続します
 
+![connect]()
+
 VPNネットワークのパスワードを入力してください。
-[!connect]()
+
+![vpnpass](images/vpn_connected.png)
 
 3. それっぽいダイアログが出てきたら接続完了です。ipアドレスは`10.8.0.xx`になっているはずです。
 
@@ -39,7 +43,8 @@ VPNネットワークのパスワードを入力してください。
 1. VNCクライアントアプリを起動してください
 
 2. VNCの接続設定をします
-[!vnc_config]()
+
+![vnc_config](images/vnc_config.png)
 
 * Server:port  
 各グループに割り振られたPCのIPアドレスと、ご自身のポート番号を入力してください。  
@@ -48,13 +53,16 @@ VPNネットワークのパスワードを入力してください。
 エンコードは`ZRLE`, `32(64)Colors`, `Jpeg Quality=5~8` がおすすめです。
 
 3. VNCパスワードを入力してください。
-[!vnc_password]()
+
+![vnc_password](images/vnc_login.png)
 
 4. 画面が出てくれば接続成功です。少しデスクトップの表示に時間がかかるかもしれません。30秒程何も表示されなかったら、問い合わせてください。作業環境詳細については[hands_on]()を参照。
 
+![vnc_window](images/connected.png)
+
 ## データアクセス
 提供データは暗号化されたHDDに格納されています。
-デスクトップのリンクからアクセスすることができます。
+デスクトップのリンク`workspace`からアクセスすることができます。
 パスは`/home/自分の名前/Desktop/workspace/data`
 です。
 
@@ -63,5 +71,8 @@ VPNネットワークのパスワードを入力してください。
 ## 作業終了
 1. VNCの切断ボタン
 2. VPN切断  
+
+![vpn_disconnect](images/disconnect.png)
+
 VPNへ接続すると、全てのトラフィックは作業環境ルータを経由します。  
 VPN接続したままYouTube等を行うと、帯域が圧迫されて、他の作業者の通信が遅くなってしまう可能性があるので、作業が終わったら必ず切断して下さい。
