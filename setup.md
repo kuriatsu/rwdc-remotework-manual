@@ -29,7 +29,7 @@
 
 2. VPNへ接続します
 
-![connect]()
+![connect](images/conect.png)
 
 VPNネットワークのパスワードを入力してください。
 
