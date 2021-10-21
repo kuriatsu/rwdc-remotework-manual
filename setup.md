@@ -1,9 +1,9 @@
 # セットアップ方法
 
 ## 認証鍵受け取り
-key/dth-smbc.ovpn : vpnアクセス鍵。取扱は厳重にお願いします。絶対に外部に置かないようにしてください。  
-key/memo.txt : VPNパスワードとVNCパスワード  
-key/access.xlsx : VNCにアクセスするために個人に振り分けられたIPアドレスとポート番号  
+dth-smbc.ovpn : vpnアクセス鍵。取扱は厳重にお願いします。絶対に外部に置かないようにしてください。  
+memo.txt : VPNパスワードとVNCパスワード  
+access.xlsx : VNCにアクセスするために個人に振り分けられたIPアドレスとポート番号  
 
 ## ソフトウェアインストール
 ### Windows
@@ -24,8 +24,10 @@ key/access.xlsx : VNCにアクセスするために個人に振り分けられ�
 
 
 >**公開鍵の取り扱いには十分注意してください**  
-クラウドやチャットツールにアップロードすることの無いよう注意してください。  
- Windowsの場合、`ドキュメント`などへ保存するとOneDriveへ共有されてしまう可能性があるため、`¥C:/Download/vpn`など、¥C：下のローカルストレージへ保存するように注意してください。
+クラウドやチャットツールにアップロードすることの無いよう注意してください。
+PCのローカルストレージへコピーしなくてもCD-R等から直接VPNソフトへインポートできると思います（後述）。  
+インポート後、鍵自体はできる限りオフライン環境で保管して下さい。  
+ローカルのストレージへ保存する場合、Windowsだと`ドキュメント`などへ保存するとOneDriveへアップロードされてしまう可能性があるため、`¥C:/Download/vpn`など、¥C：下へ保存するようにしてください。
 
 1. OpenVPNに公開鍵をインポートします
 
@@ -61,7 +63,7 @@ VPNネットワークのパスワードを入力してください。
 
 ![vnc_password](images/vnc_login.png)
 
-4. 画面が出てくれば接続成功です。少しデスクトップの表示に時間がかかるかもしれません。30秒程何も表示されなかったら、問い合わせてください。作業環境詳細については[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)を参照。
+4. 画面が出てくれば接続成功です。少しデスクトップの表示に時間がかかるかもしれません。30秒程何も表示されなかったら、問い合わせてください。作業環境詳細については[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)参照。
 
 ![vnc_window](images/connected.png)
 
@@ -71,7 +73,7 @@ VPNネットワークのパスワードを入力してください。
 パスは`/home/自分の名前/Desktop/workspace/data`
 です。
 
-作業に関する詳細は[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)をご参照。
+作業に関する詳細は[hands_on](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/hands_on.md)参照。
 
 ## 作業終了
 1. VNCの切断ボタン (`Close Connection`)
@@ -80,4 +82,4 @@ VPNネットワークのパスワードを入力してください。
 ![vpn_disconnect](images/disconnect.png)
 
 VPNへ接続すると、全てのトラフィックは作業環境ルータを経由します。  
-VPN接続したままYouTube等を行うと、帯域が圧迫されて、他の作業者の通信が遅くなってしまう可能性があるので、作業が終わったら必ず切断して下さい。
+VPN接続したままYouTube等を閲覧すると、帯域が圧迫されて、他の作業者に影響が出る可能性があるので、作業が終わったらVPNを必ず切断して下さい。
