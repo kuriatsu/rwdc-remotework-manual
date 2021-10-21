@@ -1,8 +1,8 @@
 # プラクティカム リモート作業環境マニュアル
 
-1. [セットアップ]()
-2. [Tips]()
-3. [トラブルシューティング]()
+1. [セットアップ](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/setup.md)
+2. [Tips](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/tips.md)
+3. [トラブルシューティング](https://github.com/kuriatsu/rwdc-remotework-manual/blob/main/trouble_shooting.md)
 
 ## 心得
 
