@@ -2,8 +2,8 @@
 
 ## 認証鍵受け取り
 key/dth-smbc.ovpn : vpnアクセス鍵。取扱は厳重にお願いします。絶対に外部に置かないようにしてください。  
-memo.txt : VPNパスワードとVNCパスワード  
-access.xlsx : VNCにアクセスするために個人に振り分けられたIPアドレスとポート番号  
+key/memo.txt : VPNパスワードとVNCパスワード  
+key/access.xlsx : VNCにアクセスするために個人に振り分けられたIPアドレスとポート番号  
 
 ## ソフトウェアインストール
 ### Windows
