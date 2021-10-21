@@ -69,7 +69,7 @@ VPNネットワークのパスワードを入力してください。
 作業に関する詳細は[hands_on]()をご参照。
 
 ## 作業終了
-1. VNCの切断ボタン
+1. VNCの切断ボタン (`Close Connection`)
 2. VPN切断  
 
 ![vpn_disconnect](images/disconnect.png)
