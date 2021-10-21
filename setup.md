@@ -33,7 +33,7 @@
 
 VPNネットワークのパスワードを入力してください。
 
-![vpnpass](images/vpn_connected.png)
+![vpnpass](images/vpn_connect.png)
 
 3. それっぽいダイアログが出てきたら接続完了です。ipアドレスは`10.8.0.xx`になっているはずです。
 
